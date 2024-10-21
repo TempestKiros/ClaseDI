@@ -35,6 +35,7 @@ public class FormularioController implements Initializable,
     private BorderPane panelGeneral;
 
     private DropShadow sombra;
+    
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle)  {
@@ -49,8 +50,8 @@ public class FormularioController implements Initializable,
     private void persoGUI() {
         persoBotones(bValidar,"validar.png");
         persoBotones(bEnviar,"enviar.png");
-        persoBotones(bLimpiar,"borrarAA.png");
-        persoBotones(bSalir, "exit.png");
+        persoBotones(bLimpiar,"borrar.png");
+        persoBotones(bSalir, "default.png");
 
     }
     private void persoBotones(Button boton, String path)

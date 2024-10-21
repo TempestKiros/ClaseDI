@@ -16,7 +16,7 @@ public class HelloApplication extends Application {
         // acceso a toda la funcionalidad de la escena
         // fxmlLoader.getController();
         Scene scene = new Scene(root, 600, 400);
-        stage.setTitle("Hello!");
+        stage.setTitle("Soy una App, nice!");
         stage.setScene(scene);
         stage.show();
     }

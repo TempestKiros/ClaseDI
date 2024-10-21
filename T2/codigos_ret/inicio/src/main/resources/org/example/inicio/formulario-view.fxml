@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<BorderPane fx:id="panelGeneral" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.inicio.FormularioController">
+<BorderPane fx:id="panelGeneral" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.inicio.FormularioController">
     <opaqueInsets>
         <Insets />
     </opaqueInsets>
@@ -28,6 +28,7 @@
                 <Button fx:id="bLimpiar" mnemonicParsing="false" text="Limpiar">
                 </Button>
                 <Button fx:id="bValidar" mnemonicParsing="false" text="Validar" />
+            <Button fx:id="bSalir" mnemonicParsing="false" text="Salir" />
 
             </children>
         </FlowPane>
